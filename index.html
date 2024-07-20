@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<!-- Оставь надежду каждый сюда входящий -->
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title> Моя тестовая страница </title>
+        <link href="styles/style.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <header>
+            <nav>
+              <ul>
+                <li><a href="#">Главная</a></li>
+                <li><a href="#">Тесты</a></li>
+                <button id="Login">Log in</button>
+                <button id="SignUp">Sign up</button>
+              </ul>
+            </nav>
+        </header>
+
+        <main>
+            <!-- Здесь будет отображаться список доступных тестов -->
+            <section class="tests">
+              <h1>Доступные тесты</h1>
+              ...
+            </section>
+          
+            <!-- Форма поиска тестов -->
+            <form action="/search" method="get">
+              <label for="query">Введите запрос:</label>
+              <input type="text" name="query" id="query">
+              <button type="submit">Найти тест</button>
+            </form>
+          
+            <!-- Результаты поиска -->
+            <div class="results">
+              <!-- Здесь будут отображаться результаты поиска -->
+              ...
+            </div>
+        </main>
+        <footer>
+            Нижний колонтитул
+        </footer>
+        <script src="scripts/main.js"></script>
+    </body>
+</html>
